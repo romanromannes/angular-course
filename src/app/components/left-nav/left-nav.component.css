@@ -1,0 +1,9 @@
+.card {
+    height: 70vh;
+    width: 100%;
+}
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
