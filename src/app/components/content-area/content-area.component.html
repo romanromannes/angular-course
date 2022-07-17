@@ -1,9 +1,8 @@
-<div
-  
-  class="d-flex flex-wrap w-100"
-  
->
-  <div *ngFor="let destiny of data" class="card m-2 d-inline" style="width: 18rem">
+<div class="d-flex flex-wrap w-100">
+  <div
+    *ngFor="let destiny of data"
+    class="card m-2"
+  >
     <img [src]="destiny.img" class="card-img-top" [alt]="destiny.name" />
     <div class="card-body">
       <h5 class="card-title">{{ destiny.name }}</h5>
